@@ -46,6 +46,7 @@ LOCAL_C_INCLUDES := \
 
 LOCAL_HEADER_LIBRARIES += libhardware_headers
 LOCAL_HEADER_LIBRARIES += libsystem_headers
+LOCAL_HEADER_LIBRARIES += libarpal_headers
 LOCAL_HEADER_LIBRARIES += libaudio_hal_headers
 include $(BUILD_SHARED_LIBRARY)
 
@@ -82,6 +83,7 @@ LOCAL_C_INCLUDES := \
 
 LOCAL_HEADER_LIBRARIES += libhardware_headers
 LOCAL_HEADER_LIBRARIES += libsystem_headers
+LOCAL_HEADER_LIBRARIES += libarpal_headers
 LOCAL_HEADER_LIBRARIES += libaudio_hal_headers
 include $(BUILD_SHARED_LIBRARY)
 
